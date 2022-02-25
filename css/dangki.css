@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select:contain;
+}
+h1{
+    color: #009999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.register-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+
+.input-box{
+    margin-bottom: 10px;
+    width: 370px;
+}
+.input-box input[type='text'],
+.input-box input[type='password'],
+.input-box input[type='date']{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #666666;
+}
+.input-box select{
+    padding: 7.5px 15px;
+    width: 400px;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 16px;
+    display: inline-block;
+    height: 40px;
+    color: #000000;
+    margin-top: 5px;
+}
+.btn-box{
+    margin-top: 30px;
+    display: inline;
+    margin-inline-end: 20px;
+}
+.btn-box span{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.btn-box a{
+    text-decoration: none;
+    text-transform: none;
+}
+.btn-box span:hover{
+    color: rgb(11, 20, 46);
+    cursor: pointer;
+}

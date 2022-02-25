@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header{
+    background-image: url("/images/bg-tin.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+/* ------------------------------body_left------------------------------- */
+#body_left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#body_left h1{
+    text-transform: uppercase;
+    color: #0F2346;
+    font-size: 25px;
+}
+#body_left hr{
+    margin-top: 10px;
+    height: 1px;
+    width: 320px;
+    background-color: rgb(180, 63, 8);
+}
+/* --------------------------------LINE ITEM---------------------------- */
+#body_left .line_item{
+    margin-top: 5px;
+    display: flex;
+    width: 300px;
+}
+#body_left .line_item img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+#body_left .line_item a{
+    text-decoration: none;
+    color: #128521;
+    margin-left: 10px;
+    font-weight: 500;
+}
+#body_left .line_item a:hover{
+    color: rgb(8, 180, 166);
+    transition: all .3s ease-out;
+}
+
+/* -----------------------------body_right------------------------------ */
+/* -------------------------------HÀNG 1------------------------------- */
+#body_right_1{
+    float: right;
+    margin-top: 20px;
+    display: flex;
+}
+#body_right_1 .body_right_box_1{
+    border: 2px solid rgb(83, 26, 26);
+    width: 300px;
+    height: 530px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.body_right_box_1 img{
+    margin: 10px 12px;
+    border-radius: 10px;
+}
+.body_right_box_1 h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.body_right_box_1 h3 a{
+    text-decoration: none;
+    color: rgb(13, 12, 29);
+}
+.body_right_box_1 h3 a:hover{
+    transition: all .3s ease-out;
+    color: rgb(25, 114, 136);
+}
+.body_right_box_1 h4{
+    color: rgb(202, 16, 16);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.body_right_box_1 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.body_right_box_1 .button{
+    position: relative;
+    display: block;
+    width: 170px;
+    margin-top: 25px;
+    margin-left: 65px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(90, 19, 43);
+}
+.body_right_box_1 .button:hover{
+    background-color: rgb(9, 145, 124);
+    transition: all .3s ease-out;
+
+}
+.body_right_box_1 .button span{
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(216, 216, 208);
+    font-size: 15px;
+    font-weight: 700;
+    top: 6.5px;
+    left: 5.5px;
+}
+/* -------------------------------HÀNG 2------------------------------- */
+#body_right_2{
+    float: right;
+    margin-top: 20px;
+    display: flex;
+}
+#body_right_2 .body_right_box_2{
+    border: 2px solid rgb(83, 26, 26);
+    width: 300px;
+    height: 530px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.body_right_box_2 img{
+    margin: 10px 12px;
+    border-radius: 10px;
+}
+.body_right_box_2 h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+.body_right_box_2 h3 a{
+    text-decoration: none;
+    color: rgb(13, 12, 29);
+}
+.body_right_box_2 h3 a:hover{
+    transition: all .3s ease-out;
+    color: rgb(25, 114, 136);
+}
+.body_right_box_2 h4{
+    color: rgb(202, 16, 16);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.body_right_box_2 p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.body_right_box_2 .button{
+    position: relative;
+    display: block;
+    width: 170px;
+    margin-top: 25px;
+    margin-left: 65px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(90, 19, 43);
+}
+.body_right_box_2 .button:hover{
+    background-color: rgb(9, 145, 124);
+    transition: all .3s ease-out;
+
+}
+.body_right_box_2 .button span{
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(216, 216, 208);
+    font-size: 15px;
+    font-weight: 700;
+    top: 6.5px;
+    left: 5.5px;
+}

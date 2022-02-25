@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/* liên hệ 1 */
+.lienhe_1{
+    width: 550px;
+}
+.lienhe_1 h2{
+    text-transform: uppercase;
+    color: #0F2346;
+    font-size: 25px;
+}
+.lienhe_1 p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* lien hệ 2 */
+.lienhe_2{
+    width: 300px;
+    margin-left: 50px;
+}
+.lienhe_2 h2{
+    text-transform: uppercase;
+    color: #0F2346;
+    font-size: 25px;
+}
+.lienhe_2 ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.lienhe_2 li{
+    margin-top: 20px;
+}
+.lienhe_2 li a{
+    text-decoration: none;
+}
+/* liên hệ 3 */
+.lienhe_3 h2{
+    color: #0F2346;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+.lienhe_3 ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.lienhe_3 li{
+    margin-top: 20px;
+}
+/* link */
+.lien_he_3_link{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.lien_he_3_link a{
+    margin-top: 10px;
+}
+.lien_he_3_link i{
+    margin-left: 25px;
+}
+.lien_he_3_link a i:hover{
+    font-size: 35px;
+    transition: all .3s ease-out;
+}
+iframe{
+    margin-top: 40px;
+}

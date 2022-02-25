@@ -1,0 +1,43 @@
+#container {
+    position: relative;
+}
+#container hr {
+    position: absolute;
+    top: 10px;
+}
+
+#body_left {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#body_right {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+}
+
+#body_full {
+    position: absolute;
+    top: 30px;
+    margin: auto;
+    width: 590px;
+    height: 700px;
+    border: 1px solid rgb(56, 24, 11);
+    margin-left: 380px;
+}
+
+.fb-like {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.fb-comments {
+    margin-top: 10px;
+}
